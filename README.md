@@ -11,6 +11,10 @@ SO THAT our own site is optimized for search engines
 
 Website has been refactored so the codebase follows the accessibility standards required .
 
+## Website Link
+
+Visit the website here: https://brooksy236.github.io/Horiseon-website/#search-engine-optimization
+
 ## Screenshot
 
 ![](Horiseon-website_index.html.png)
