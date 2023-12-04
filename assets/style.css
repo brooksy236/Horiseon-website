@@ -1,0 +1,151 @@
+    /* Removes the defaults added by browsers. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sets the overall backgroun colour. */
+body {
+    background-color: #d9dcd6;
+    position: absolute;
+}
+
+.top {
+    /* This spans the header the full width of the page. */
+    width: 100%; 
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    border-bottom: 5px solid black;
+}
+
+/* Put the heading inline and sets the font-size. */
+    h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* This gives the SEO in the company title more emphasis.*/
+.seo {
+    color: #b4b8b3;
+    font-size: 48px;
+}
+
+/* This is for the navigation bar holding the links. */
+.navbar {
+    display: inline;
+    padding: 10px 10px;
+    margin: 10px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.navbar ul li {
+    /* To keep the links listed horizontally and not vertically. */
+    display: inline-block;
+    /* Adds some padding and a border around the text. */
+    padding: 8px;
+    border: 3px solid black;
+    margin-left: 25px;
+    background-color: #153a4d;
+}
+
+/* colours the link text in the header */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This is the main image underneath the header. */
+.main-img {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* .content includes the 3 main article sections. */
+.content {
+    position: static; 
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styles each o the article sections. */
+.article-content {
+    padding: 50px;
+    border: 5px solid #153a4d;
+    margin-bottom: 20px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets the size and postion of the three main article images. */
+.article-image {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* Adds a bottom margin and font size for the three article headers. */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* size and display type for the text in all the paragraphs. */
+p {
+    font-size: 16px;
+    display: block;
+}
+
+/* .benefits is the side-bar with Lead Generation, Brand Awareness & Cost Management in it. */
+.benefits {
+    position: static;
+    padding: 20px;
+    border: 5px solid #153a4d;
+    margin-right: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* The next three are for the individual benefits in the side-bar. */
+.benefit-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-heading {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* THis is for the footer at the bottom of the page. */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 20px;
+}
